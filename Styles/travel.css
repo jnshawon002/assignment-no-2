@@ -1,0 +1,134 @@
+.btn {
+    width: 174px;
+    border-radius: 8px;
+    background: #FF5400;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Start the NAV section */
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+
+.image h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+#color-1 {
+    color: rgb(138, 255, 127);
+}
+
+#color-2 {
+    color: rgb(255, 0, 242);
+}
+
+#color-3 {
+    color: rgb(127, 140, 255);
+}
+
+.ancore {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.ancore a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Start main section(no-1) */
+
+.explore-container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-container .articel {
+    text-align: center;
+
+}
+
+.explore-container .articel h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 100px;
+    position: relative;
+    top: 90px;
+}
+
+.explore-container .articel p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.explore-container .select {
+    margin-top: 65px;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 6%;
+    display: inline-flex;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+
+    Show 1 more color Frame Icon · 24 x 24 Frame Icon · 24 x 24
+}
+
+
+.explore-container .select>input {
+    margin-left: 10px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 10 px;
+    font-weight: 400;
+    padding: 10px;
+    border-style: none;
+}
